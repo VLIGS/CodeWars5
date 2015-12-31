@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="470459f8-e108-49c5-94ba-3b679146a5c6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Calc.java" afterPath="$PROJECT_DIR$/src/Calc.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalcTest.java" afterPath="$PROJECT_DIR$/src/CalcTest.java" />
     </list>
     <ignored path="CodeWars5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/Calc.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
               <folding>
                 <element signature="e#261#269#0" expanded="true" />
               </folding>
@@ -41,8 +41,8 @@
       <file leaf-file-name="CalcTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CalcTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4074074">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4814815">
+              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#185#186#0" expanded="true" />
@@ -53,6 +53,8 @@
                 <element signature="e#688#689#0" expanded="true" />
                 <element signature="e#1038#1039#0" expanded="true" />
                 <element signature="e#1123#1124#0" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1250#1251#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +80,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CalcTest.java" />
         <option value="$PROJECT_DIR$/src/Calc.java" />
+        <option value="$PROJECT_DIR$/src/CalcTest.java" />
       </list>
     </option>
   </component>
@@ -615,7 +617,7 @@
       <created>1451499469979</created>
       <option name="number" value="Default" />
       <updated>1451499469979</updated>
-      <workItem from="1451499480266" duration="2736000" />
+      <workItem from="1451499480266" duration="3480000" />
     </task>
     <servers />
   </component>
@@ -623,9 +625,18 @@
     <history-entry file="CalcTest - 2015.12.31 at 09h 56m 21s.xml">
       <configuration name="CalcTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalcTest - 2015.12.31 at 11h 35m 38s.xml">
+      <configuration name="CalcTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest - 2015.12.31 at 11h 36m 39s.xml">
+      <configuration name="CalcTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest - 2015.12.31 at 11h 37m 06s.xml">
+      <configuration name="CalcTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2736000" />
+    <option name="totallyTimeSpent" value="3480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="714" extended-state="6" />
@@ -684,7 +695,7 @@
     <entry file="file://$PROJECT_DIR$/src/Calc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding>
             <element signature="e#261#269#0" expanded="true" />
           </folding>
@@ -693,8 +704,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CalcTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4074074">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4814815">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
@@ -705,6 +716,8 @@
             <element signature="e#688#689#0" expanded="true" />
             <element signature="e#1038#1039#0" expanded="true" />
             <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
           </folding>
         </state>
       </provider>

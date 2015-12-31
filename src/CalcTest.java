@@ -27,7 +27,7 @@ public class CalcTest {
 
     @Test
     public void shouldSupportMultiplication() {
-        assertEquals("Should support multiplication", 3, calc.evaluate("1 3 *"), 0);
+        assertEquals("Should support multiplication", 6, calc.evaluate("2 3 *"), 0);
     }
 
     @Test
@@ -37,6 +37,10 @@ public class CalcTest {
 
     @Test
     public void shouldSupportDivision() {
-        assertEquals("Should support division", 2, calc.evaluate("4 2 /"), 0);
+        assertEquals("Should support division", 2, calc.evaluate("6 3 /"), 0);
+    }
+    @Test
+    public void simpleCase() {
+        assertEquals("simple case", 14, calc.evaluate("5 1 2 + 4 * + 3 -"), 0);
     }
 }

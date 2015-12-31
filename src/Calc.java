@@ -7,11 +7,17 @@ public class Calc {
         }
         String [] myExpressionString = expr.split("[\\s]+");
         Stack<String> myExpressionStack = new Stack<String>();
+        double myResult = 0.0;
         for(int i = 0; i< myExpressionString.length; i++){
-            if(!myExpressionString[i].equals("+")&&!myExpressionString[i].equals("+")&&!myExpressionString[i].equals("+")&&!myExpressionString[i].equals("+")){
-
+            if(!myExpressionString[i].equals("+")&&!myExpressionString[i].equals("-")&&!myExpressionString[i].equals("*")&&!myExpressionString[i].equals("/")){
+                myExpressionStack.push(myExpressionString[i]);
             }
         }
-        return 0;
+        if(myExpressionStack.empty()){
+            return myResult;
+        }
+        else{
+            return Double.parseDouble(myExpressionStack.pop());
+        }
     }
 }
