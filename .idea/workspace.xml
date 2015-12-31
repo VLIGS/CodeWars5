@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="470459f8-e108-49c5-94ba-3b679146a5c6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Calc.java" afterPath="$PROJECT_DIR$/src/Calc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalcTest.java" afterPath="$PROJECT_DIR$/src/CalcTest.java" />
     </list>
     <ignored path="CodeWars5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,28 +25,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Calc.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Calc.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.5555556">
+              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
               <folding>
-                <element signature="e#261#269#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#291#299#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalcTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalcTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CalcTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4814815">
-              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
                 <element signature="e#403#404#0" expanded="true" />
                 <element signature="e#603#604#0" expanded="true" />
                 <element signature="e#688#689#0" expanded="true" />
@@ -80,8 +79,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Calc.java" />
         <option value="$PROJECT_DIR$/src/CalcTest.java" />
+        <option value="$PROJECT_DIR$/src/Calc.java" />
       </list>
     </option>
   </component>
@@ -617,26 +616,44 @@
       <created>1451499469979</created>
       <option name="number" value="Default" />
       <updated>1451499469979</updated>
-      <workItem from="1451499480266" duration="3480000" />
+      <workItem from="1451499480266" duration="6731000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalcTest - 2015.12.31 at 09h 56m 21s.xml">
-      <configuration name="CalcTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalcTest - 2015.12.31 at 11h 35m 38s.xml">
-      <configuration name="CalcTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalcTest - 2015.12.31 at 11h 36m 39s.xml">
-      <configuration name="CalcTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalcTest - 2015.12.31 at 11h 37m 06s.xml">
+      <configuration name="CalcTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest - 2015.12.31 at 13h 12m 13s.xml">
+      <configuration name="CalcTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest - 2015.12.31 at 13h 14m 08s.xml">
+      <configuration name="CalcTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest - 2015.12.31 at 13h 14m 23s.xml">
+      <configuration name="CalcTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest - 2015.12.31 at 13h 16m 16s.xml">
+      <configuration name="CalcTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest - 2015.12.31 at 13h 17m 27s.xml">
+      <configuration name="CalcTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest - 2015.12.31 at 13h 18m 24s.xml">
+      <configuration name="CalcTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest - 2015.12.31 at 13h 18m 34s.xml">
+      <configuration name="CalcTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest - 2015.12.31 at 13h 41m 04s.xml">
+      <configuration name="CalcTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest - 2015.12.31 at 13h 42m 16s.xml">
       <configuration name="CalcTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3480000" />
+    <option name="totallyTimeSpent" value="6731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="714" extended-state="6" />
@@ -676,7 +693,16 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CalcTest.java</url>
+          <line>14</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -692,25 +718,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="e#261#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CalcTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4814815">
-          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
             <element signature="e#403#404#0" expanded="true" />
             <element signature="e#603#604#0" expanded="true" />
             <element signature="e#688#689#0" expanded="true" />
@@ -718,6 +733,17 @@
             <element signature="e#1123#1124#0" expanded="true" />
             <element signature="e#1164#1165#0" expanded="true" />
             <element signature="e#1250#1251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5555556">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#291#299#0" expanded="true" />
           </folding>
         </state>
       </provider>
