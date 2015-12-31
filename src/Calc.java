@@ -3,6 +3,7 @@ import java.util.List;
 
 public class Calc {
     public double evaluate(String expr) {
+        System.out.println(expr);
         if(expr.length()==0){
             return 0;
         }
@@ -14,23 +15,22 @@ public class Calc {
                 myExpressionStack.add(myExpressionString[i]);
             }
             else{
-                myResult = Double.parseDouble(myExpressionStack.get(0));
-                for(int k=1; k<myExpressionStack.size();i++){
+                myResult = Double.parseDouble(myExpressionStack.get(myExpressionStack.size()-2));
                     if(myExpressionString[i].equals("+")){
-                        myResult = myResult + Double.parseDouble(myExpressionStack.get(k));
+                        myResult = myResult + Double.parseDouble(myExpressionStack.get(myExpressionStack.size()-1));
                     }
                     else if(myExpressionString[i].equals("-")){
-                        myResult = myResult - Double.parseDouble(myExpressionStack.get(k));
+                        myResult = myResult - Double.parseDouble(myExpressionStack.get(myExpressionStack.size()-1));
                     }
                     else if(myExpressionString[i].equals("*")){
-                        myResult = myResult * Double.parseDouble(myExpressionStack.get(k));
+                        myResult = myResult * Double.parseDouble(myExpressionStack.get(myExpressionStack.size()-1));
                     }
                     else if(myExpressionString[i].equals("/")){
-                        myResult = myResult / Double.parseDouble(myExpressionStack.get(k));
+                        myResult = myResult / Double.parseDouble(myExpressionStack.get(myExpressionStack.size()-1));
                     }
-                    myExpressionStack = new ArrayList<String>();
-                    myExpressionStack.add(""+myResult+"");
-                }
+                myExpressionStack.remove(myExpressionStack.size()-1);
+                myExpressionStack.remove(myExpressionStack.size()-1);
+                myExpressionStack.add(""+myResult+"");
             }
         }
         if(myExpressionStack.size()!=0){

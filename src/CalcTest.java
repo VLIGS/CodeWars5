@@ -40,7 +40,7 @@ public class CalcTest {
         assertEquals("Should support division", 2, calc.evaluate("6 3 /"), 0);
     }
     @Test
-    public void simpleCase() {
-        assertEquals("simple case", 14, calc.evaluate("5 1 2 + 4 * + 3 -"), 0);
+    public void simpleCase1() {
+        assertEquals("simple case", 7, calc.evaluate("5 1 2 + 4 * + 3 - 2 /"), 0);
     }
 }
