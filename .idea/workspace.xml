@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="470459f8-e108-49c5-94ba-3b679146a5c6" name="Default" comment="" />
+    <list default="true" id="470459f8-e108-49c5-94ba-3b679146a5c6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SecretDetective.java" afterPath="$PROJECT_DIR$/src/SecretDetective.java" />
+    </list>
     <ignored path="CodeWars5.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,29 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-              <folding>
-                <element signature="e#1771#1772#0" expanded="true" />
-                <element signature="e#1798#1799#0" expanded="true" />
-                <element signature="e#1835#1836#0" expanded="true" />
-                <element signature="e#1866#1867#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SecretDetective.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SecretDetective.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2506964">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.8356546">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
-                <element signature="e#83#84#0" expanded="true" />
-                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,18 +55,6 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#201#202#0" expanded="true" />
                 <element signature="e#250#251#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -664,7 +647,7 @@
       <created>1451499469979</created>
       <option name="number" value="Default" />
       <updated>1451499469979</updated>
-      <workItem from="1451499480266" duration="26866000" />
+      <workItem from="1451499480266" duration="28829000" />
     </task>
     <servers />
   </component>
@@ -701,7 +684,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26866000" />
+    <option name="totallyTimeSpent" value="28829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="714" extended-state="6" />
@@ -843,11 +826,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SecretDetective.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2506964">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.8356546">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
           </folding>
         </state>
       </provider>
