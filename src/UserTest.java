@@ -13,8 +13,10 @@ public class UserTest {
 
     @Test
     public void correctRankTest() {
-        myUser.incProgress(2);
-        myUser.incProgress(-1);
+        myUser.progress = 91;
+        myUser.rank = 7;
+        myUser.incProgress(8);
+
 
         myUser.incProgress(-8);
         assertEquals("Same rank", 3, myUser.getCurrentProgress(), 0);
