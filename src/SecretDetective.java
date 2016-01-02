@@ -5,22 +5,19 @@ public class SecretDetective {
     public List<lettersCluster> myLetters = new ArrayList<lettersCluster>();
     public String recoverSecret(char[][] triplets) {
         List <String> mySecrectString = new ArrayList<String>();
+        String myReturnString ="";
         String myCurrentString = "";
         for(int i =0; i<triplets.length; i++){
             train(triplets[i]);
         }
-        //find letter with no leaves and add it to secret string
-        mySecrectString.add(findLetterNoLeaves());
-        myCurrentString = mySecrectString.get(0);
+        myReturnString = myReturnString + findLetterNoLeaves();
+        myCurrentString = Character.toString(myReturnString.charAt(0));
         deleteCenter(myCurrentString);
         while(myLetters.size()!=0){
             myCurrentString = findLetterWithLeave(myCurrentString);
-            mySecrectString.add(0,myCurrentString);
-
+            myReturnString = myCurrentString + myReturnString;
         }
-
-
-        return  null;
+        return  myReturnString;
     }
     private void train(char [] myCharArray){
         for (int i = 0; i <myCharArray.length-1; i++){
@@ -64,8 +61,8 @@ public class SecretDetective {
     }
     private String findLetterWithLeave(String myLeave){
         for(lettersCluster myItem: myLetters){
-            if(myItem.getLeave(myLeave)!=null){
-                myItem.removeLeave(myLeave);
+            if(myItem.getLeave(myLeave)!=null && myItem.myLeaves.size()==1){
+                removeLeaveFromAllClusters(myLeave);
                 String myReturnString = myItem.getCentre();
                 if(myItem.myLeaves.size()==0){
                     myLetters.remove(myItem);
@@ -74,6 +71,14 @@ public class SecretDetective {
             }
         }
         return null;
+    }
+    private void removeLeaveFromAllClusters(String myLeave){
+        for(lettersCluster myItem: myLetters){
+            if(myItem.getLeave(myLeave)!=null){
+                myItem.removeLeave(myLeave);
+            }
+        }
+
     }
     private void addClusterLeave (String myCentre, String myLeave){
         for(lettersCluster myItem: myLetters){
