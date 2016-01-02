@@ -13,6 +13,13 @@ public class SecretDetective {
         mySecrectString.add(findLetterNoLeaves());
         myCurrentString = mySecrectString.get(0);
         deleteCenter(myCurrentString);
+        while(myLetters.size()!=0){
+            myCurrentString = findLetterWithLeave(myCurrentString);
+            mySecrectString.add(0,myCurrentString);
+
+        }
+
+
         return  null;
     }
     private void train(char [] myCharArray){
@@ -55,6 +62,19 @@ public class SecretDetective {
         }
         return false;
     }
+    private String findLetterWithLeave(String myLeave){
+        for(lettersCluster myItem: myLetters){
+            if(myItem.getLeave(myLeave)!=null){
+                myItem.removeLeave(myLeave);
+                String myReturnString = myItem.getCentre();
+                if(myItem.myLeaves.size()==0){
+                    myLetters.remove(myItem);
+                }
+                return myReturnString;
+            }
+        }
+        return null;
+    }
     private void addClusterLeave (String myCentre, String myLeave){
         for(lettersCluster myItem: myLetters){
             if(myItem.getCentre().equals(myCentre)){
@@ -68,6 +88,7 @@ public class SecretDetective {
     public class lettersCluster{
         private String myCenter;
         private List<String> myLeaves;
+
         public lettersCluster(String myString){
             myCenter = myString;
             myLeaves = new ArrayList<String>();
@@ -79,8 +100,14 @@ public class SecretDetective {
             myLeaves.remove(myLeaves.indexOf(myLeave));
         }
         public String getLeave(String myLeave){
-            return myLeaves.get(myLeaves.indexOf(myLeave));
+            for(String myItem: myLeaves){
+                if(myItem.equals(myLeave)){
+                    return myCenter;
+                }
+            }
+            return null;
         }
+
         public String getCentre(){
             return myCenter;
         }
