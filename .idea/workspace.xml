@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="470459f8-e108-49c5-94ba-3b679146a5c6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ConversionTest.java" afterPath="$PROJECT_DIR$/src/ConversionTest.java" />
-    </list>
+    <list default="true" id="470459f8-e108-49c5-94ba-3b679146a5c6" name="Default" comment="" />
     <ignored path="CodeWars5.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -687,7 +685,7 @@
       <created>1451499469979</created>
       <option name="number" value="Default" />
       <updated>1451499469979</updated>
-      <workItem from="1451499480266" duration="53016000" />
+      <workItem from="1451499480266" duration="53663000" />
     </task>
     <servers />
   </component>
@@ -724,7 +722,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53016000" />
+    <option name="totallyTimeSpent" value="53663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="714" extended-state="0" />
